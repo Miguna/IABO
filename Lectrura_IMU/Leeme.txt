@@ -1,0 +1,11 @@
+1.) Se tomaron los datos del arduino
+	Tres tomas de datos estando en el plano XY
+	Una toma de datos estando rotado en el plano XZ -45
+	Una toma de datos estando rotado en el plano XZ  45
+	Una toma de datos estando rotado en el plano YZ  45
+	Una toma de datos estando rotado en el plano YZ -45
+2.) Se trabajo el archivo para dividir entre valores de _Derecha _Izquierda _Arriba _Abajo
+3.) Se Caracterisaron los datos y se normalizaron, tomando ventanas de 100 muestras para cada dato.
+4.) Se graficaron los datos para saber  si se deben eliminar variables. Se descubrio que Giro Z es innecesario.
+5.) Se entreno la IA con el clasificador correspondiente.
+6.) Se Programo el arduino y FIN.
