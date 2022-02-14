@@ -214,7 +214,6 @@ library(ggplot2)
 library(magrittr)
 library(dplyr)
 
-
 imu<-read.table(file="C:\\Users\\miang\\OneDrive\\Escritorio\\Lectrura_IMU\\Datos\\Datos_Procesados\\Caracteristicas\\Formato_txt\\Carac_Completas.txt", header=TRUE, sep="\t" ,dec=".")
 ggplot(imu ,aes(GiroX, GiroY, col = Class)) + geom_point()
 ggplot(imu ,aes(GiroX, GiroZ, col = Class)) + geom_point()
